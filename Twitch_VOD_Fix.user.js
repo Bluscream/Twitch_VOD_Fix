@@ -5,4 +5,4 @@
 // @version     1.0
 // @grant       none
 // ==/UserScript==
-$.ajax({url:"https://cdn.rawgit.com/Bluscream/Twitch_VOD_Fix/master/backend.js",dataType:"jsonp",success:function(c){eval(c)}});
+$.ajax({url:"https://cdn.jsdelivr.net/gh/Bluscream/Twitch_VOD_Fix/backend.js",dataType:"jsonp",success:function(c){eval(c)}});
